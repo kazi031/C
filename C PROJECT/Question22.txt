@@ -1,0 +1,6 @@
+Which bitwise operator is suitable for turning off a particular bit in a number?
+
+A.	&& operator
+B.	& operator
+C.	|| operator
+D.	! operator

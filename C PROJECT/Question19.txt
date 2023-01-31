@@ -1,0 +1,22 @@
+#include<stdio.h>
+long long dec2bin(long long dec)
+{
+    if(dec==0)
+        return 0;
+    else if(dec==1)
+        return 1;
+    else
+        return(dec % 2 + 10 * dec2bin(dec / 2));
+}
+int main()
+{
+    long long x;
+    while(scanf("%lld", &x), x!=-1)
+        {x=dec2bin(x); printf("%lld\n", x);}
+}
+
+What is the output when the input is given 10?
+A. 1001
+B. 1000
+C. 1100
+D. 1010

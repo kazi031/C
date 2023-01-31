@@ -1,0 +1,22 @@
+#include<stdio.h>
+int main()
+{
+    struct site
+    {
+        char name[] = "Geeks for Geeks";
+        int no_of_pages = 200;
+    };
+    struct site *ptr;
+    printf("%d",ptr->no_of_pages);
+    printf("%s",ptr->name);
+    getchar();
+    return 0;
+}
+What will happen if we run this program?
+A.Below text will appear on screen-     	B.Compiler error.
+	Geeks for Geeks
+	200
+
+C.Below text will appear on screen-		D.None of these.
+	200
+	Geeks for Geeks

@@ -1,0 +1,27 @@
+#include<stdio.h>
+int main()
+{
+int i, j, x;
+printf("No. of lines:");
+scanf("%d", &x);
+for(i=1; i<=x; i++)
+    {
+    printf("\n");
+    for(j=1; j<=i; j++)
+    printf("* ");
+    }
+for(i=x-1; i>=1; i--)
+    {
+    printf("\n");
+    for(j=1; j<=i; j++)
+    printf("* ");
+    }
+}
+
+What is the proper output when input is 3?
+A.		B.		C.	D
+*		* * * * *		*****	* * * * *
+* *	  	  * * *		*****	  * * *
+* * *		    *		*****	    *
+* *		    *	     	*****
+*		    *		*****

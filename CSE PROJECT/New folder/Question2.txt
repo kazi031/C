@@ -1,0 +1,11 @@
+# include <stdio.h>
+# define scanf  "CSE-18"
+main()
+{
+   printf(scanf, scanf);
+   getchar();
+   return 0;
+}
+What will show up on the Screen if we run this program?
+A.CSE-18 CSE-18			B."CSE-18"
+C.CSE-18			D.CSE

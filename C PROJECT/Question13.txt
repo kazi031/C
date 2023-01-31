@@ -1,0 +1,27 @@
+#include<stdio.h>
+int small(int n)
+{
+    int i, j;
+    scanf("%d", &i);
+    if(n==1)
+        return i;
+    j=small(n-1);
+    if(i>j)
+        return j;
+    else
+        return i;
+}
+
+int main()
+{
+        int x; scanf("%d", &x);
+        x=small(x);
+        printf("%d", x);
+}
+
+
+If the input is given "5 6 7 8 9 10" then what will be the output?
+a. 5
+b. 6
+c. 9
+d. 10

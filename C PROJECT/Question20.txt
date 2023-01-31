@@ -1,0 +1,21 @@
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+    char ch[50];
+    gets(ch);
+    int i, len=strlen(ch);
+    for(i=0; i<len; i++)
+        switch(ch[i])
+        {
+        case 'a' ... 'z': ch[i]=ch[i]+'A'-'a'; break;
+        case 'A' ... 'Z': ch[i]=ch[i]-'A'+'a'; break;
+        }
+    puts(ch);
+}
+
+If the input is "HeLLo DanKNeS$ mY 0LD frienD." what is the expected output?
+A. hello DANKNESS my OLD friend.
+B. heLl0 darknesS MY olD FrIenD.
+C. hEllO dANknEs$ My 0ld FRIENd.
+D. hEll0 dANknEs$ My old FRIENd.

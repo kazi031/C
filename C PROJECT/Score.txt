@@ -1,0 +1,12 @@
+Name:kazi rafid raiyan
+Roll:201814022
+Marks:98
+Name:asima oshin putul
+Roll:201814048
+Marks:77.9
+Name:saba ahmed
+Roll:201814053
+Marks:77.5
+Name:kazi
+Roll:201814022
+Marks:35.4

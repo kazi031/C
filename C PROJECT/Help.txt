@@ -1,0 +1,13 @@
+This is a offline quiz based on computer science and programming.You'll
+
+be asked some general questions from your theory subject structured 
+
+programmin language and the right answer is to be chosen among the four
+
+options provided. Your score will be calculated at theend. Remember that
+
+the more quicker you give answer the more score you will secure. Your 
+
+score will be calculated and displayedat the end and displayed. If you 
+
+secure highest score, your scorewill be recorded. So BEST OF LUCK.

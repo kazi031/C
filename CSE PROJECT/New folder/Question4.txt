@@ -1,0 +1,20 @@
+#include <stdlib.h>
+#include <stdio.h>
+enum {false, true};
+int main()
+{
+   int i = 1;
+   do
+   {
+      printf("%d ", i);
+      i++;
+      if (i < 4)
+        continue;
+   } while (false);
+
+   getchar();
+   return 0;
+}
+What is the probable output of this program?
+A.1 2 3 4		B.1 2 3
+C.1 2			D.1

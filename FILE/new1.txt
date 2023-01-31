@@ -1,0 +1,7 @@
+In the following code, the P2 is Integer Pointer or Integer?
+typedef int *ptr;
+ptr p1, p2;
+A.Integer pointer
+B.Integer
+C.Error in declaration
+D.None of above

@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main()
+{
+    char string[100] = "Hello";
+    printf("string has occupied %d bytes.", sizeof(str));
+}
+What will be the output of this program?
+A.string has occupied 5 bytes.		B.string has occupied 5 bytes.
+C.string has occupied 100 bytes.	D.None of these.

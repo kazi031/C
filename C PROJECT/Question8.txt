@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main()
+{
+    int i;
+    int sum = 0;
+    int a[] = {1, 2, 3, 4, 5};
+    for (i = 0; i<5; i++)
+    {
+        sum = sum + a[i];
+        printf("%d ", sum);
+    }
+}
+What will appear on the screen if we run this program?
+A.1 2 3 4 5			B.15
+C.1 3 6 10 15			D.3 5 9 14

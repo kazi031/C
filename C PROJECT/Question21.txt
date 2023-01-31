@@ -1,0 +1,6 @@
+In which numbering system can the binary number 1011011111000101 be easily converted to?
+
+A.	Decimal system
+B.	Hexadecimal system
+C.	Octal system
+D.	No need to convert

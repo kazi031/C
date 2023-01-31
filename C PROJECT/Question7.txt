@@ -1,0 +1,10 @@
+#include<stdio.h>
+void main()
+{
+     int a[5];
+     a[10] = 90;
+     printf("%d", a[10]);
+     getch();
+}
+A.This program might crash. 			B.This program might not crash.
+C.This program will face a compiler error.      D.Both A & B.

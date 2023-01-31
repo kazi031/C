@@ -1,0 +1,21 @@
+#include<stdio.h>
+
+char *getString()
+{
+   char *str = "Nice test for strings";
+   return str;
+}
+
+int main()
+{
+   printf("%s", getString());
+   getchar();
+   return 0;
+}
+i.getString is a pointer variale.
+ii.The output is Nice test for strings
+iii.The size of variable str is 4 bytes
+iv.The size of variable str is 1 bytes
+Which of these are correct?
+A.i,ii			B.ii,iv
+C.ii,iii		D.i,ii,iii,iv

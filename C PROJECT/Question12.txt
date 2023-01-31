@@ -1,0 +1,28 @@
+#include<stdio.h>
+int main()
+{
+int n, i, j;
+/*
+a to z : 97-122;
+A to Z : 65-90;
+0 to 9 : 40-57
+*/
+char c='a';
+scanf("%d", &n);
+for(i=1;i<=n; i++)
+    {
+    for(j=1; j<=i; j++)
+        {
+        printf("%c ", c++);
+        }
+        printf("\n");
+    }
+}
+
+What will be the output if the input is 3?
+
+A.	B.	C.	D.
+a	A	a	1
+b c	B C	a a	2 3
+d e f	D E F	a a a	4 5 6
+

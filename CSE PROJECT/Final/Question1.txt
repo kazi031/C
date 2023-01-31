@@ -1,0 +1,14 @@
+#include<stdio.h> 
+int main() 
+{ 
+   int n; 
+   for(n = 7; n!=0; n--)
+   { 
+     printf(" %d", n--);
+   } 
+   getchar(); 
+   return 0; 
+}
+What is the probable output of this program?
+A. 7 6 5 4 3 2 1                B. 6 5 4 3 2 1
+C. 7 6 5 4 3 2 1 0		D. Infinity loop

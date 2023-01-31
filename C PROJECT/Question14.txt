@@ -1,0 +1,23 @@
+int large(int n)
+{
+    int i, j;
+    scanf("%d", &i);
+    if(n==1)
+        return i;
+    j=large(n-1);
+    if(i>j)
+        return i;
+    else
+        return j;
+int main()
+{
+        int x; scanf("%d", &x);
+        x=small(x);
+        printf("%d", x);
+}
+
+If the input is given "3 2 1 0" then what will be the output?
+a. 1
+b. 2
+c. 3
+d. 0
